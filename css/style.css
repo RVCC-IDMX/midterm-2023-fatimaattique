@@ -1,0 +1,32 @@
+/* CSS styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* CSS styles for the header */
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* CSS styles for the main section */
+main {
+    padding: 20px;
+}
+
+/* CSS styles for the footer */
+footer {
+    background: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+#gallery div {
+    text-align:center;
+    border: 8px dashed black; 
+}
