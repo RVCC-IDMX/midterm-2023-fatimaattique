@@ -3,32 +3,44 @@ body {
     font-family: Georgia, sans-serif;
     line-height: 1.6;
     background-color: #f9f9f9;
-    color: #333;
+    color: navy;
 }
 
 /* CSS styles for the header */
 header {
-    background: #35424a;
-    color: #ffffff;
+    background: pink;
+    color: navy;
     padding: 20px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
 
 /* CSS styles for the main section */
 main {
     padding: 20px;
+    text-align: center;
 }
 
 /* CSS styles for the footer */
 footer {
-    background: #35424a;
-    color: #ffffff;
+    background: pink;
+    color: navy;
     text-align: center;
     padding: 10px;
+    font-size: 20px;
 }
-#gallery div {
+#gallery {
     text-align:center;
-    border: 6px dashed #35424a; 
+    border: 15px double navy; 
+}
+#gallery {
+    display:flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    margin-left: 1em;
 }
 
 /* CSS styles for the main section */
@@ -38,10 +50,39 @@ main h2 {
 
 ul li {
     font-size: 17pt;
-    color: #ffffff;   
+    color: navy;   
 }
 
 /* Color for when the mouse is over the link */
-a:hover {
-    color: #ffffff; 
+
+a:visited {
+    color: navy;
 }
+
+a:hover {
+    color: yellow; 
+}
+
+/* CSS styles for the img */
+
+section p {
+        color: navy;
+        text-align: center;
+    }
+    
+section a:link {
+        color: black;
+        text-decoration: none;
+    }
+    
+section a:visited {
+        color: navy;
+    }
+    
+section a:hover {
+        color: pink;
+    }
+
+
+
+
