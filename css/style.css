@@ -1,8 +1,8 @@
 /* CSS styles for the body */
 body {
-    font-family: Arial, sans-serif;
+    font-family: Georgia, sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
+    background-color: #f9f9f9;
     color: #333;
 }
 
@@ -28,5 +28,20 @@ footer {
 }
 #gallery div {
     text-align:center;
-    border: 8px dashed black; 
+    border: 6px dashed #35424a; 
+}
+
+/* CSS styles for the main section */
+main h2 {
+    text-align: center;
+}
+
+ul li {
+    font-size: 17pt;
+    color: #ffffff;   
+}
+
+/* Color for when the mouse is over the link */
+a:hover {
+    color: #ffffff; 
 }
